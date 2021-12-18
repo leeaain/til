@@ -12,3 +12,4 @@
 - [[고급] 알고리즘 / 편의점 알바 거스름돈 동전 개수 구하기](./algorithm/greedy_change.js)
 - [[스니핏] 배열에서 중복값 제거하기](./JS-snippet/remove_duplication.js)
 - [[스니핏] 변수명 자동 생성](./JS-snippet/make_auto_varName.js)
+- [[스니핏] 소수인지 판단하기](./JS-snippet/isPrimeNumber.js)
