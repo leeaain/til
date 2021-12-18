@@ -6,5 +6,5 @@
 ---
 ## Java Script 공부한 기록
 >2021/12/19
-- 변수
+- [변수](./JS/var.md)
 - [구구단 함수 커밋](./JS/multiplication_table.js)
