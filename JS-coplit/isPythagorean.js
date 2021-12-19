@@ -38,7 +38,6 @@ function isPythagorean(side1, side2, side3) {
     // 제일 값이 큰 변이 무엇인지 알아내야 함
     let maxNum = 0; 
     let otherNum = 0;
-  
     if (side1 > side2 && side1 > side3) {
       maxNum = Math.pow(side1, 2);
       otherNum = Math.pow(side2, 2) + Math.pow(side3, 2);
@@ -49,7 +48,6 @@ function isPythagorean(side1, side2, side3) {
       maxNum = side3 ** 2;
       otherNum = (side1 ** 2) + (side2 ** 2);
     }
-  
     return otherNum === maxNum;
 }
 
