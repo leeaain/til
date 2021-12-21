@@ -1,5 +1,5 @@
 function getLengthOfLongestElement(arr) {
-    let longestLen = arr[0].length
+    let longestLen = 0
     for (let el of arr) {
       if (longestLen < el.length ) longestLen = el.length   
     }
