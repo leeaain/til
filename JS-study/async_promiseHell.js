@@ -1,4 +1,5 @@
 function gotoSchool() {
+    // promise화 된 함수 : .then으로 이어나갈 수 있다는 의미
     return new Promise((resolve, reject) => {
         setTimeout(() => { resolve('1. go to school') }, 400)
     })
@@ -42,4 +43,5 @@ gotoSchool()
         })
     })
 })
-
+//.then안에서 return 처리를 잘 해주면 promise hell에 빠질 일이 없음
+// const 
