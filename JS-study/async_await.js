@@ -1,4 +1,4 @@
-// promise의 syntactic sugar
+// promise의 syntactic sugar (promise와 동일하게 돌아감)
 // await로 비동기 함수들을 동기적인 것처럼 사용가능
 function gotoSchool() {
     // promise화 된 함수 : .then으로 이어나갈 수 있다는 의미
