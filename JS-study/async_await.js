@@ -3,19 +3,19 @@
 function gotoSchool() {
     // promise화 된 함수 : .then으로 이어나갈 수 있다는 의미
     return new Promise((resolve, reject) => {
-        setTimeout(() => { resolve('1. go to school') }, 400)
+        setTimeout(() => { resolve('1. go to school') }, 800)
     })
 }
 
 function parking() {
     return new Promise((resolve, reject) => {
-        setTimeout(() =>  {resolve('2. parking')}, 300)
+        setTimeout(() =>  {resolve('2. parking')}, 600)
     })
 }
 
 function gotoClassroom() {
     return new Promise((resolve, reject) => {
-        setTimeout(() => { resolve('3. goto Classroom')}, 200)
+        setTimeout(() => { resolve('3. goto Classroom')}, 400)
     })
 }
 
