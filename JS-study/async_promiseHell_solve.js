@@ -25,7 +25,7 @@ function lecturing() {
     })
 }
 
-// promise 지옥
+// promise 지옥은 return 처리를 잘 해주면 해결가능
 const printAll = () => {
   gotoSchool()
   .then((data) => {
@@ -44,7 +44,6 @@ const printAll = () => {
     console.log(data)
   })
 }
-//.then안에서 return 처리를 잘 해주면 promise hell에 빠질 일이 없음
-// const 
+
 printAll()
 
