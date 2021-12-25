@@ -1,4 +1,5 @@
 //async_promiseHell.js의 promise hell문제를 수정한 예
+// promise Chaining의 예
 
 function gotoSchool() {
     // promise화 된 함수 : .then으로 이어나갈 수 있다는 의미
@@ -31,6 +32,8 @@ const printAll = () => {
   .then((data) => {
     console.log(data)
     return parking()
+    // return을 통해서 해당 비동기를 다음으로 넘김
+    // 이러한 기술을 promise Chaining이라 함
   })
   .then((data) => {
     console.log(data)
