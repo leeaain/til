@@ -6,7 +6,7 @@ function factorial(num) {
     return num * factorial(num -1)
 }
 
-// the best code.
+// ref code.
 function factorial(num) {
     if (num <= 1) {
       return 1;

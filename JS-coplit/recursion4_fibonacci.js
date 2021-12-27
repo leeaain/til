@@ -9,7 +9,7 @@ function fibonacci(num) {
     return fibonacci(num -1) + fibonacci(num -2)
   }
   
-  // the best code.
+  // ref code.
   function fibonacci(num) {
     if (num <= 1) {
       return num;

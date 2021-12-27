@@ -5,7 +5,7 @@ function sumTo(num) {
     return num + sumTo(num -1);
   }
 
-// the best code.
+// ref code.
 function sumTo(num) {
     if (num <= 1) {
       return num;

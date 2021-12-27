@@ -7,7 +7,7 @@ function isOdd(num) {
     return isOdd(num -2)
   }
 
-  // the best code.
+  // ref code.
   function isOdd(num) {
     if (num === 0) {
       return false;
